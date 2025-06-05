@@ -16,7 +16,11 @@ export default function Header() {
     <header className="border-b p-4 bg-primary/10">
       <div className="container mx-auto flex items-center justify-between">
         <div>
-         <img src={aykreaLogo} alt="Aykrea Logo" className="w-32"/>
+        <Link to="/">
+        <img src={aykreaLogo} alt="Aykrea Logo" className="w-32"/>
+        </Link>
+
+         
         </div>
 
         <div>
