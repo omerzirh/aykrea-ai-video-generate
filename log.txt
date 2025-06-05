@@ -1,0 +1,51 @@
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsImtpZCI6IlgrakphKzZRMlZYeU11QlkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2J0Z29nam52cXVkaWlqenBseGJhLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI0ZDJmZWYyNi00OGZhLTRhZDUtOTg1ZC02ZjJjMDI5ZmI5MjkiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzQ2OTk0Nzc2LCJpYXQiOjE3NDY5OTExNzYsImVtYWlsIjoib21lcnppcmhAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6Im9tZXJ6aXJoQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6IjRkMmZlZjI2LTQ4ZmEtNGFkNS05ODVkLTZmMmMwMjlmYjkyOSJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzQ2OTkxMTc2fV0sInNlc3Npb25faWQiOiI5YTY5NWNiOC1hZGMwLTQ5YTgtOWUwMC0yY2VhMDZmMGJhNDUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.251wbG1kaI8TxK76hdU6rB7yPX7ow0VoQH79uZxhdjE",
+    "token_type": "bearer",
+    "expires_in": 3600,
+    "expires_at": 1746994776,
+    "refresh_token": "dkrn7p4hw56d",
+    "user": {
+        "id": "4d2fef26-48fa-4ad5-985d-6f2c029fb929",
+        "aud": "authenticated",
+        "role": "authenticated",
+        "email": "omerzirh@gmail.com",
+        "email_confirmed_at": "2025-05-11T17:52:32.573432Z",
+        "phone": "",
+        "confirmation_sent_at": "2025-05-11T17:51:02.84765Z",
+        "confirmed_at": "2025-05-11T17:52:32.573432Z",
+        "last_sign_in_at": "2025-05-11T19:19:36.859278526Z",
+        "app_metadata": {
+            "provider": "email",
+            "providers": [
+                "email"
+            ]
+        },
+        "user_metadata": {
+            "email": "omerzirh@gmail.com",
+            "email_verified": true,
+            "phone_verified": false,
+            "sub": "4d2fef26-48fa-4ad5-985d-6f2c029fb929"
+        },
+        "identities": [
+            {
+                "identity_id": "ee6f7968-811a-4214-a7c8-57698dc8ca4d",
+                "id": "4d2fef26-48fa-4ad5-985d-6f2c029fb929",
+                "user_id": "4d2fef26-48fa-4ad5-985d-6f2c029fb929",
+                "identity_data": {
+                    "email": "omerzirh@gmail.com",
+                    "email_verified": true,
+                    "phone_verified": false,
+                    "sub": "4d2fef26-48fa-4ad5-985d-6f2c029fb929"
+                },
+                "provider": "email",
+                "last_sign_in_at": "2025-05-11T17:51:02.843869Z",
+                "created_at": "2025-05-11T17:51:02.843921Z",
+                "updated_at": "2025-05-11T17:51:02.843921Z",
+                "email": "omerzirh@gmail.com"
+            }
+        ],
+        "created_at": "2025-05-11T17:51:02.834962Z",
+        "updated_at": "2025-05-11T19:19:36.865075Z",
+        "is_anonymous": false
+    }
+}
