@@ -6,7 +6,6 @@ import { Input } from './components/ui/input'
 import { Label } from './components/ui/label'
 import { Textarea } from './components/ui/textarea'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './components/ui/select'
-import { generateImage } from './aiactions/generateImage'
 import { generateVideoFromImageRunway } from './aiactions/generateVideoFromImageRunway'
 import { generateVideoFromTextRunway } from './aiactions/generateVideoFromTextRunway'
 import { FileVideo, Image as ImageIcon, Wand2 } from 'lucide-react'
@@ -119,16 +118,16 @@ function App() {
     
     setIsLoading(true);
     try {
-      const images = await generateImage({
-        prompt: imagePrompt,
-        numberOfImages: 1,
-        accessToken: session?.access_token
-      });
+      // const images = await generateImage({
+      //   prompt: imagePrompt,
+      //   numberOfImages: 1,
+      //   accessToken: session?.access_token
+      // });
       
       // Increment usage
       await incrementUsage('image');
       
-      setGeneratedImages(images);
+      // setGeneratedImages(images);
     } catch (error) {
       console.error('Error generating image:', error);
       toast.error(t('app.validation.error'));

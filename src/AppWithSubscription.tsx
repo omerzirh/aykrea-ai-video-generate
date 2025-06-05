@@ -5,7 +5,6 @@ import { Input } from './components/ui/input';
 import { Label } from './components/ui/label';
 import { Textarea } from './components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './components/ui/select';
-import { generateImage } from './aiactions/generateImage';
 // import { generateVideoFromImage } from './aiactions/generateVideoFromImage';
 import { generateVideoFromImageRunway } from './aiactions/generateVideoFromImageRunway';
 import { generateVideoFromTextRunway } from './aiactions/generateVideoFromTextRunway';
@@ -127,15 +126,15 @@ function AppWithSubscription() {
     
     setIsLoading(true);
     try {
-      const images = await generateImage({
-        prompt: imagePrompt,
-        numberOfImages: 1
-      });
+      // const images = await generateImage({
+      //   prompt: imagePrompt,
+      //   numberOfImages: 1
+      // });
       
       // Increment usage
       await incrementUsage('image');
       
-      setGeneratedImages(images);
+      // setGeneratedImages(images);
     } catch (error) {
       console.error('Error generating image:', error);
       alert('Error generating image');
